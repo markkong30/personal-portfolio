@@ -43,12 +43,11 @@
 
 
 /* Page content */
-
-#home {
+#home, #about {
   margin-left: 200px; /* Same as the width of the sidenav */
 }
 @media (max-width:768px) {
-  #home {
+  #home, #about {
     margin-left: 120px;
   }
 }
@@ -78,4 +77,17 @@
   .home2 h1 {
     font-size: 35px;
   }
+}
+
+/* About */
+.img-about-wrapper {
+  width: 200px;
+  max-width: 200px;
+  flex-shrink: 0;
+}
+.img-about {
+  background-image: url(./images/profile\ img.jpg);
+  padding-top: calc(4 / 3 * 100%);
+  background-size: cover;
+  background-position: center;
 }
