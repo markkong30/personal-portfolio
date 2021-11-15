@@ -25,31 +25,57 @@
   line-height: 4rem;
   word-spacing: 0.5rem;
 }
-
+@media (max-width:768px) {
+  .sidenav {
+    width: 120px;
+  }
+  .nav-links a{
+    font-size: 14px;
+    line-height: 2rem;
+  }
+  .img-profile {
+    width: 50%;
+  }
+  .profile h3 {
+    font-size: 18px;
+  }
+}
 
 
 /* Page content */
+
 #home {
   margin-left: 200px; /* Same as the width of the sidenav */
+}
+@media (max-width:768px) {
+  #home {
+    margin-left: 120px;
+  }
 }
 
 /* home */
 .home2 {
   background-image: url(https://picsum.photos/500/500);
-  /* image from https://picsum.photos/, random photos are genereted each time */
   padding-top: 40%;
-  /* portrait aspect ratio */
   background-size: cover;
   background-position: center;
   margin: 0 -15px;
   min-height: 500px;
+ 
 }
-
-
 .inner {
   /* overlay the inner <div> exactly on top of its parent */  
   top: 200px;
   left: 0;
   right: 0;
   color: white;
+  text-align: center;
+}
+@media (max-width:768px) {
+  .home2 h2 {
+    font-size: 25px;
+  }
+  .home2 h1 {
+    font-size: 35px;
+  }
 }
