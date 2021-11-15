@@ -43,11 +43,11 @@
 
 
 /* Page content */
-#home, #about {
+#home, #about, #portfolios{
   margin-left: 200px; /* Same as the width of the sidenav */
 }
 @media (max-width:768px) {
-  #home, #about {
+  #home, #about, #portfolios {
     margin-left: 120px;
   }
 }
@@ -90,4 +90,33 @@
   padding-top: calc(4 / 3 * 100%);
   background-size: cover;
   background-position: center;
+}
+
+/* Portfolios */
+.img-portfolio {
+  padding-top: calc(2 / 3 * 100%); /* aspect ratio 3:2 */
+  background-size: cover;
+  background-position: center;
+}
+#port1 {
+  background-image: url(./images/iphone.PNG);
+}
+#port2 {
+  background-image: url(./images/newsweek.PNG);
+}
+#port3 {
+  background-image: url(./images/airbnb.PNG);
+}
+.description a{
+  text-decoration: none;
+  color: black;
+  animation-name: description;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes description {
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  100% {color: green;}
 }
