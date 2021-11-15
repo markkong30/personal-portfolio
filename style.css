@@ -1,0 +1,55 @@
+/* The sidenav */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.img-profile {
+  width: 60%;
+  display: block;
+  margin-left: 30px;
+  margin-top: 80px;
+}
+.nav-links a{
+  display:block;
+  padding-top: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  line-height: 4rem;
+  word-spacing: 0.5rem;
+}
+
+
+
+/* Page content */
+#home {
+  margin-left: 200px; /* Same as the width of the sidenav */
+}
+
+/* home */
+.home2 {
+  background-image: url(https://picsum.photos/500/500);
+  /* image from https://picsum.photos/, random photos are genereted each time */
+  padding-top: 40%;
+  /* portrait aspect ratio */
+  background-size: cover;
+  background-position: center;
+  margin: 0 -15px;
+  min-height: 500px;
+}
+
+
+.inner {
+  /* overlay the inner <div> exactly on top of its parent */  
+  top: 200px;
+  left: 0;
+  right: 0;
+  color: white;
+}
