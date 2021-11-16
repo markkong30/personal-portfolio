@@ -54,20 +54,18 @@
 
 /* home */
 .home2 {
-  background-image: url(https://picsum.photos/500/500);
+  background-image: url(./images/home.jpg);
   padding-top: 40%;
   background-size: cover;
   background-position: center;
   margin: 0 -15px;
   min-height: 500px;
- 
 }
 .inner {
   /* overlay the inner <div> exactly on top of its parent */  
   top: 200px;
   left: 0;
   right: 0;
-  color: white;
   text-align: center;
 }
 @media (max-width:768px) {
