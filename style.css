@@ -126,7 +126,7 @@
 /* Contact */
 #bookshelf {
   height: 300px;
-  min-width: 100%;
+  width: 100%;
 }
 .media a {
   text-decoration: none;
